@@ -4,7 +4,7 @@ A static quiz website built from the 12 Wildlife Ecology Assignment Solutions PD
 
 ## Features
 - Practice mode by assignment week, with immediate right/wrong feedback.
-- Timed mock test with 20 randomly selected questions and a 20-minute timer.
+- Timed mock test with 20 questions and a 20-minute timer. Questions do not repeat across mock-test attempts until all 120 have been used; progress is saved in the same browser.
 - All-in-one mode with all 120 questions in randomized order.
 - Answer choices are shuffled on each run.
 - End-of-test score and answer review.
@@ -26,3 +26,6 @@ Anyone with that URL can use the quiz. Changes are stored only in the current br
 
 ## Important answer-key note
 The supplied PDFs show questions and options but do not visibly mark correct options. The quiz includes a manually inferred answer key based on the question wording and ecology knowledge. Please review the key carefully against your official course answer key before sharing it as an authoritative exam resource.
+
+
+Mock-test no-repeat tracking is stored in your browser local storage. Clearing browser site data or using another browser/device resets that tracking. Starting a test marks its 20 questions as used, even if you leave before finishing. After all 120 questions have been used, the cycle starts over.
